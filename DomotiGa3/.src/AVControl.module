@@ -14,7 +14,7 @@
 
 Public sDenonCmds As String[] = ["power", "mainpower", "z2power", "volume", "z2volume", "mute", "z2mute", "input", "z2input", "cli"]
 Public sDenonValues As String[] = ["on,off", "on,off", "on,off", "<db>,up,down,off", "<db>,up,down,off", "on,off", "on,off", "phone,cd,tuner,dvd,vdp,tv,dbs,vcr-1,vcr-2,vcr-3,v.aux,cdr/tape", "phone,cd,tuner,dvd,vdp,tv,dbs,vcr-1,vcr-2,vcr-3,v.aux", "<cmd>"]
-Public sDenonInfo As String[] = ["Switch receiver power on/off", "Switch main zone power on/off", "Switch zone2 power on/off", "Set main volume", "Mute audio", "Mute audio zone2", "Select input source", "Select input source zone2", "Send a custom command"]
+Public sDenonInfo As String[] = ["Switch receiver power on/off", "Switch main zone power on/off", "Switch zone2 power on/off", "Set main volume", "Set volume zone2", "Mute audio", "Mute audio zone2", "Select input source", "Select input source zone2", "Send a custom command"]
 
 Public sOnkyoCmds As String[] = ["power", "z2power", "volume", "z2volume", "mute", "z2mute", "input", "z2input", "cli"]
 Public sOnkyoValues As String[] = ["on,off", "on,off", "<0-100>,up,down,up1,down1", "<0-100>,up,down,up1,down1", "on,off,toggle", "on,off,toggle",
